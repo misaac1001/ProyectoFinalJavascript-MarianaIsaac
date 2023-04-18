@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "imagen": "img/producto1.jpg",
+        "nombre": "Varita magica",
+        "precio": 30
+    },
+    {
+        "id": 2,
+        "imagen": "img/producto2.jpg",
+        "nombre": "Mochila",
+        "precio": 100
+    },
+    {
+        "id": 3,
+        "imagen": "img/producto3.jpg",
+        "nombre": "Rana de Chocolate",
+        "precio": 10
+    },
+    {
+        "id": 4,
+        "imagen": "img/producto4.jpg",
+        "nombre": "Buzo Hogwarts",
+        "precio": 170
+    },
+    {
+        "id": 5,
+        "imagen": "img/producto5.jpg",
+        "nombre": "Cerveza de Calabaza",
+        "precio": 35
+    },
+    {
+        "id": 6,
+        "imagen": "img/producto6.jpg",
+        "nombre": "Gato Hermione",
+        "precio": 110
+    },
+    {
+        "id": 7,
+        "imagen": "img/producto7.jpg",
+        "nombre": "Capa de Revenclaw",
+        "precio": 200
+    },
+    {
+        "id": 8,
+        "imagen": "img/producto8.jpg",
+        "nombre": "Escudo Original",
+        "precio": 30
+    }
+]

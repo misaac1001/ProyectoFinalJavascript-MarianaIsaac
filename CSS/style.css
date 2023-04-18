@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@1,500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+/* General */
+
+body {
+  background-image: url(../img/fondoPantalla.jpg);
+  text-align: center;
+
+}
+
+body h1 {
+  font-family: 'Sofia', cursive;
+  font-size: 40px;
+  color: white;
+  margin: 20px;
+}
+
+body h2 {
+  color: white;
+  margin: 30px;
+}
+
+.navbar-text button {
+  border: none;
+}
+
+
+/* logo */
+
+i {
+  font-size: 35px;
+
+}
+
+/*Imput*/
+
+.search {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+/* filtros */
+.filtros {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.filtros button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+/* CARRITO 
+    cards
+*/
+
+.container .card {
+  background: none;
+  font-family: 'Sofia', cursive;
+  font-size: 15px;
+  color: white;
+  border: 2px solid white;
+  padding: auto;
+}
+
+.container .cards {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.card img {
+  padding: 10px;
+}
+
+/*Error en cards*/
+.error-cards {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  color: red;
+
+}
+
+/* Tabla de carrito */
+
+main table {
+  background-color: white;
+  font-family: 'Sofia', cursive;
+  font-size: 15px;
+  padding: auto;
+
+}
+
+.confirmarCompra {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+
+}
+
+/* TOTAL */
+
+.total {
+  background: none;
+  font-family: 'Sofia', cursive;
+  font-size: 30px;
+  color: white;
+  padding: auto;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+footer .icons a {
+  color: white;
+  margin: 15px;
+  padding: 5px;
+}
+
+footer .logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  footer .logo {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+}
+
+footer .logo .icons {
+  margin: 10px;
+
+}
+
+footer .FondoCopy {
+  color: white;
+}
